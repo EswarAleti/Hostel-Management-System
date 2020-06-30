@@ -1,52 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Hostel Management System</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!--custom CSS-->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-<body>
-    <div class="jumbotron text-center">
-        <div class="row">
-            <div class="col-sm-3">
-                <img src="images/iit_tirupati_latest_logo.jpg" height="100px">
-            </div>
-            <div class="col-sm-6">
-                <h2><a class="nounderline" href="./index.html">Hostel Management  System</a></h2>
-            </div>
-            <div class="col-sm-3">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-google"></a>
-            </div>
-        </div>
-        
-    </div>
-    <nav class="navbar navbar-inverse" role="navigation" style="border-radius: 0%;background-color: black; margin: 0%;">
-        <div class="container">
-            <div class="navbar-header" >
-                <a class="navbar-brand" href="./index.html" style="text-align: left;">Hostel Management  System</a>
-            </div>
-            <div class="collapse navbar-collapse" style="font-size:medium;">
-                <ul class="nav navbar-nav">
-                    <li><a href="./index.html">Home</a></li>
-                <li><a href="./facilities.html">Facilities</a></li>
-                <li><a href="./gallery.html">Gallery</a></li>
-                <li><a href="./dosdont.html">Do's & Don'ts</a></li>
-                <li><a href="./login.html">Login Register</a></li> 
-                <li><a href="./faq.html">FAQ</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<?php include('header.php');?>
     <div class="container" id='nav-below-nody'>
         <div class="row" style="padding: 10px;margin: 0%;">
             <h3 style="font-family: fantasy">Gallery</h3>
@@ -64,15 +16,15 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                            <img src="./images/hacker.jpg" alt="Los Angeles" style="width:100%;">
+                            <img src="./images/hostel1.jpg" alt="Los Angeles" style="width:100%;">
                             </div>
                     
                             <div class="item">
-                            <img src="./images/hacker.jpg" alt="Chicago" style="width:100%;">
+                            <img src="./images/hostel2.jpg" alt="Chicago" style="width:100%;">
                             </div>
                         
                             <div class="item">
-                            <img src="./images/hacker.jpg" alt="New york" style="width:100%;">
+                            <img src="./images/hostel3.jpg" alt="New york" style="width:100%;">
                             </div>
                         </div>
                     
@@ -101,15 +53,15 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                    <img src="./images/hacker.jpg" alt="Los Angeles" style="width:100%;">
+                                    <img src="./images/gym1.jpg" alt="Los Angeles" style="width:100%;">
                                     </div>
                             
                                     <div class="item">
-                                    <img src="./images/hacker.jpg" alt="Chicago" style="width:100%;">
+                                    <img src="./images/gym2.jpg" alt="Chicago" style="width:100%;">
                                     </div>
                                 
                                     <div class="item">
-                                    <img src="./images/hacker.jpg" alt="New york" style="width:100%;">
+                                    <img src="./images/gym3.jpg" alt="New york" style="width:100%;">
                                     </div>
                                 </div>
                             
@@ -138,15 +90,15 @@
                                         <!-- Wrapper for slides -->
                                         <div class="carousel-inner">
                                             <div class="item active">
-                                            <img src="./images/hacker.jpg" alt="Los Angeles" style="width:100%;">
+                                            <img src="./images/sportcomplex1.jpg" alt="Los Angeles" style="width:100%;">
                                             </div>
                                     
                                             <div class="item">
-                                            <img src="./images/hacker.jpg" alt="Chicago" style="width:100%;">
+                                            <img src="./images/sportcomplex2.jpg" alt="Chicago" style="width:100%;">
                                             </div>
                                         
                                             <div class="item">
-                                            <img src="./images/hacker.jpg" alt="New york" style="width:100%;">
+                                            <img src="./images/sportcomplex3.jpg" alt="New york" style="width:100%;">
                                             </div>
                                         </div>
                                     
@@ -179,15 +131,15 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                        <img src="./images/hacker.jpg" alt="Los Angeles" style="width:100%;">
+                        <img src="./images/dininghall1.jpg" alt="Los Angeles" style="width:100%;">
                         </div>
                 
                         <div class="item">
-                        <img src="./images/hacker.jpg" alt="Chicago" style="width:100%;">
+                        <img src="./images/dininghall2.jpg" alt="Chicago" style="width:100%;">
                         </div>
                     
                         <div class="item">
-                        <img src="./images/hacker.jpg" alt="New york" style="width:100%;">
+                        <img src="./images/dininghall3.jpg" alt="New york" style="width:100%;">
                         </div>
                     </div>
                 
@@ -216,15 +168,15 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
                                 <div class="item active">
-                                <img src="./images/hacker.jpg" alt="Los Angeles" style="width:100%;">
+                                <img src="./images/canteen1.jpg" alt="Los Angeles" style="width:100%;">
                                 </div>
                         
                                 <div class="item">
-                                <img src="./images/hacker.jpg" alt="Chicago" style="width:100%;">
+                                <img src="./images/canteen2.jpg" alt="Chicago" style="width:100%;">
                                 </div>
                             
                                 <div class="item">
-                                <img src="./images/hacker.jpg" alt="New york" style="width:100%;">
+                                <img src="./images/canteen3.jpg" alt="New york" style="width:100%;">
                                 </div>
                             </div>
                         
@@ -253,15 +205,15 @@
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner">
                                         <div class="item active">
-                                        <img src="./images/hacker.jpg" alt="Los Angeles" style="width:100%;">
+                                        <img src="./images/hospital1.jpg" alt="Los Angeles" style="width:100%;">
                                         </div>
                                 
                                         <div class="item">
-                                        <img src="./images/hacker.jpg" alt="Chicago" style="width:100%;">
+                                        <img src="./images/hospital2.jpg" alt="Chicago" style="width:100%;">
                                         </div>
                                     
                                         <div class="item">
-                                        <img src="./images/hacker.jpg" alt="New york" style="width:100%;">
+                                        <img src="./images/hospital3.jpg" alt="New york" style="width:100%;">
                                         </div>
                                     </div>
                                 
